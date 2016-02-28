@@ -1,0 +1,68 @@
+<div class="container-fluid dashboard">
+    <div class="row dashboard-row">
+
+        <div class="col-xs-12 col-md-4 dashboard-widget ">
+            <div class="widget">
+
+                <div ng-controller="lineChartCtrl">
+                    <nvd3 options="options" data="data"></nvd3>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-8 dashboard-widget ">
+            <div class="widget">
+                <div ng-controller="stackedBarChartCtrl">
+                    <nvd3 options="options" data="data"></nvd3>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row dashboard-row">
+
+        <div class="col-xs-12 col-md-6 dashboard-widget ">
+            <div class="widget">
+                <div ng-controller="multiHorizChartCtrl">
+                    <nvd3 options="options" data="data"></nvd3>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-6 dashboard-widget ">
+            <div class="widget">
+                <div ng-controller="boxPlotChartCtrl">
+                    <nvd3 options="options" data="data"></nvd3>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row dashboard-row">
+
+        <div class="col-xs-12 col-md-4 dashboard-widget ">
+            <div class="widget">Col 5</div>
+        </div>
+        <div class="col-xs-12 col-md-4 dashboard-widget">
+            <div class="widget">Col 6</div>
+        </div>
+        <div class="col-xs-12 col-md-4 dashboard-widget">
+            <div class="widget">Col 7</div>
+        </div>
+    </div>
+
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2016 Company, Inc.</p>
+    </footer>
+
+
+</div>

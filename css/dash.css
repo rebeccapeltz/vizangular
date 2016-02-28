@@ -1,0 +1,58 @@
+
+.widget {
+    height: 300px;
+    padding: 20px 20px 0px 20px;
+    background-color: cornsilk;
+}
+
+.dashboard-widget {
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+.dashboard-row {
+    /* padding-bottom: 5px;*/
+}
+
+.dashboard {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* always collapse nav bar */
+
+body {
+    padding-top: 70px;
+}
+
+.navbar-header {
+    float: none;
+}
+
+.navbar-toggle {
+    display: block;
+}
+
+.navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.navbar-collapse.collapse {
+    display: none!important;
+}
+
+.navbar-nav {
+    float: none!important;
+    margin: 7.5px -15px;
+}
+
+.navbar-nav>li {
+    float: none;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
